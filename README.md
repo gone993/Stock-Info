@@ -1,16 +1,19 @@
-# React + Vite
+# 📊 Stock Info
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 나만의 금융 정보 대시보드 - 실시간 환율, 지수, 공모주 정보를 한눈에!
 
-Currently, two official plugins are available:
+## 🎯 프로젝트 소개
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Stock Info**는 개인 투자자를 위한 올인원 금융 정보 플랫폼입니다.  
+원달러, 원엔 환율부터 코스피, 코스닥 지수까지, 투자 결정에 필요한 모든 정보를 세련된 인터페이스로 제공합니다.
 
-## React Compiler
+"복잡한 금융 정보, 이제 우아하게 관리하세요." 💼
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ 주요 기능
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌍 **실시간 환율 정보**
+  - USD/KRW (미달러 원화 환율)
+  - JPY/KRW (일본엔 원화 환율)
+- 📈 **국내 지수 모니터링**
+  - KOSPI (코스피 지수)
+  - KOSDAQ (코스닥 지수)
